@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Brian Robinson's professional portfolio and resume.">
+  <title>Brian Robinson | Professional Portfolio</title>
+  <style>
+    :root {
+      --navy: #172d46;
+      --blue: #315b80;
+      --ink: #263445;
+      --muted: #64748b;
+      --paper: #ffffff;
+      --background: #f2f5f8;
+      --line: #dce4ec;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.65;
+      color: var(--ink);
+      background: var(--background);
+    }
+    .hero {
+      background: linear-gradient(135deg, #14283f, #294d6d);
+      color: white;
+      text-align: center;
+      padding: 54px 20px 48px;
+    }
+    .photo-frame {
+      width: 170px;
+      height: 170px;
+      margin: 0 auto 20px;
+      border: 3px solid rgba(255,255,255,.9);
+      border-radius: 50%;
+      overflow: hidden;
+      background: #e8eef4;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #28445f;
+      font-size: 14px;
+      font-weight: bold;
+      text-align: center;
+    }
+    .photo-frame img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    h1 { margin: 8px 0 4px; font-size: clamp(2rem, 5vw, 2.8rem); }
+    .tagline { margin: 4px 0; color: #e0eaf3; }
+    .contact { margin-top: 15px; font-size: .95rem; color: #e0eaf3; }
+    .contact a { color: white; }
+    main { width: min(900px, calc(100% - 32px)); margin: 30px auto 44px; }
+    section {
+      background: var(--paper);
+      margin: 20px 0;
+      padding: 28px clamp(20px, 4vw, 36px);
+      border-radius: 12px;
+      box-shadow: 0 5px 18px rgba(25, 45, 65, .06);
+    }
+    h2 {
+      color: var(--navy);
+      margin: 0 0 14px;
+      padding-bottom: 9px;
+      border-bottom: 2px solid var(--line);
+      font-size: 1.35rem;
+    }
+    h3 { color: var(--blue); margin: 18px 0 2px; font-size: 1.05rem; }
+    p { margin: 8px 0 12px; }
+    .meta { color: var(--muted); margin-top: 0; }
+    .resume-link {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 12px 20px;
+      border-radius: 7px;
+      background: var(--navy);
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .resume-link:hover, .resume-link:focus { background: var(--blue); }
+    footer {
+      text-align: center;
+      padding: 22px 16px;
+      background: var(--navy);
+      color: #e0eaf3;
+      font-size: .9rem;
+    }
+    @media (max-width: 560px) {
+      .hero { padding-top: 38px; }
+      section { padding: 22px 19px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="photo-frame">
+      <!-- Add your photo as profile.jpg in this same folder.
+           Then replace this placeholder with:
+           <img src="profile.jpg" alt="Professional photo of Brian Robinson">
+      -->
+      <span>Professional<br>Photo Goes Here</span>
+    </div>
+    <h1>Brian Robinson</h1>
+    <p class="tagline">Sport Management | Old Dominion University</p>
+    <p class="tagline">Professional Portfolio</p>
+    <div class="contact">
+      <a href="mailto:brobi0202@gmail.com">Email</a>
+      &nbsp;|&nbsp;
+      <a href="https://www.linkedin.com/in/brian-robinson-a26038267" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Hello! My name is Brian Robinson. I am pursuing a Master of Science
+        in Sport Management at Old Dominion University, with an expected
+        graduation date of May 2027.
+      </p>
+      <p>
+        My experience includes sports operations, marketing, media relations,
+        youth recreation, and community engagement. Through my academic and
+        professional experiences, I have developed skills in leadership,
+        communication, organization, teamwork, and supporting athletic and
+        community programs.
+      </p>
+      <p>
+        I am interested in opportunities that bring together sports,
+        business, technology, and community development.
+      </p>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <h3>Old Dominion University — Norfolk, Virginia</h3>
+      <p>Master of Science in Sport Management</p>
+      <p class="meta">Expected graduation: May 2027 | GPA: 3.83</p>
+      <p>Dean's List: Fall 2022 – Spring 2026</p>
+    </section>
+
+    <section id="experience">
+      <h2>Related Experience</h2>
+
+      <h3>Virginia Beach Parks &amp; Recreation</h3>
+      <p class="meta">Summer Youth Job Coach | June 2026 – Present</p>
+      <p>Facilitate communication between youth workers and supervisors, assist with program administration and documentation, and support youth coaching and promotional activities.</p>
+
+      <h3>Youth Sports Mental Health &amp; Wellness Alliance — Norfolk, Virginia</h3>
+      <p class="meta">Graduate Assistant Marketer | August 2025 – May 2026</p>
+      <p>Promoted youth recreation programs focused on mental health and wellness, supported community outreach, helped manage the organization's website, and developed ways to engage local communities.</p>
+
+      <h3>ODU Women's Volleyball — Norfolk, Virginia</h3>
+      <p class="meta">Media Relations Intern | Operations | Student Manager | January 2024 – December 2024</p>
+      <p>Supported video content planning, equipment organization, practice and court setup, community promotion, and operational needs.</p>
+
+      <h3>ODU Student Recreation — Norfolk, Virginia</h3>
+      <p class="meta">ODU Men's Volleyball President | September 2022 – January 2024</p>
+      <p>Helped coordinate practices, meetings, travel, competitions, team promotion, and community engagement.</p>
+    </section>
+
+    <section id="resume">
+      <h2>My Resume</h2>
+      <p>
+        For additional details about my education, qualifications, and
+        professional experience, view my resume below.
+      </p>
+      <a class="resume-link" href="resume.pdf" target="_blank" rel="noopener">
+        View My Resume (PDF)
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Brian Robinson | Personal Professional Website</p>
+  </footer>
+</body>
+</html>
